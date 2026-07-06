@@ -1,0 +1,27 @@
+manifest_version: 1
+service: keycloak
+description: Manifesto minimo para alimentar o portal de arquitetura e a central de governanca do ecossistema Pulsus.
+owner: platform
+domain: identity
+lifecycle: production
+tier: medium
+repository:
+  name: keycloak
+  url: https://github.com/pulsus-mobi/keycloak
+runtime:
+  platform: unknown
+  language: java
+  entrypoints: []
+environments:
+  - production
+dependencies: []
+documentation:
+  readme:
+    path: README.md
+    title: README do repositorio keycloak
+    summary: Documento agregado automaticamente pelo portal de arquitetura.
+apis: []
+external_integrations: []
+events:
+  consumes: []
+  produces: []
